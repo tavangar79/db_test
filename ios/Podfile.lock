@@ -1,0 +1,32 @@
+PODS:
+  - Flutter (1.0.0)
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+  - SQLite.swift (~> 0.12.2)
+
+SPEC REPOS:
+  trunk:
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+
+PODFILE CHECKSUM: a8767037d13c324b17cd422ba47234b4cbbc1820
+
+COCOAPODS: 1.14.3
